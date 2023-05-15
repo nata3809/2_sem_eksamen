@@ -2,7 +2,7 @@
 const { title } = Astro.props;
 import "../styles/style.css";
 import Menu from "../components/Menu.astro";
-import Vision from "../components/Vision.astro"
+import Vision from "../components/Vision.astro";
 ---
 
 <html lang="da">
@@ -21,10 +21,12 @@ import Vision from "../components/Vision.astro"
 
     <body>
 		<Menu>
-	
+		 
       <h1>{title}</h1>
-      <slot />
-	  <Vision>
+
+      <slot/>
+
+      <Vision>
     </body>
 
 </html>
