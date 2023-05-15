@@ -3,7 +3,7 @@
   }
   
   
-
+/**Tekst**/
 h1 {
   font-family: "Anton", sans-serif;
 }
@@ -14,7 +14,22 @@ h2 {
 h3 {
   font-family: "Cormorant", serif;
 }
-
 p {
   font-family: "Baloo Thambi 2", cursive;
 }
+
+/**Farver**/
+:root{
+    --grey: #D9D9D9;
+    --light_grey: #EEF0EE;
+    --off_white: #F5F5F5;
+    --black: #0E0E0E;
+}
+
+main{
+    background-color: var(--off_white);
+}
+
+
+/**link**/
+
