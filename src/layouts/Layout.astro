@@ -1,6 +1,7 @@
 ---
 const { title } = Astro.props;
 import "../styles/style.css";
+import Menu from "../components/Menu.astro";
 ---
 
 <html lang="da">
@@ -16,10 +17,12 @@ import "../styles/style.css";
 
     <title>World of Ukiyo</title>
   </head>
-  <body>
+
     <body>
+		<Menu>
+	
       <h1>{title}</h1>
       <slot />
     </body>
-  </body>
+
 </html>
