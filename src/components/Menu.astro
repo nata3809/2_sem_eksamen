@@ -4,10 +4,10 @@ import "../styles/style.css";
 
 <nav>
 
-    <div>
-        <img src="/img/logo.webp" alt="">
+    <div class="logo">
+        <img src="/img/logo.webp" alt="logo">
     </div>
-    
+
     <ul class="menu">
       <li>
         <a href="/Collections/"> Collections</a>
@@ -24,9 +24,22 @@ import "../styles/style.css";
   </nav>
 
   <style>
+
+.logo{
+display: flex;
+height: 40px;
+
+
+
+}
     .head {
       text-align: center;
       letter-spacing: 0.5rem;
+    }
+
+    ul{
+        display: flex;
+        
     }
    .menu{
     display: flex;
@@ -36,6 +49,8 @@ import "../styles/style.css";
    }
 
     nav {
+        display: flex;
+        flex-direction: row;
       text-align: center;
       border-bottom: 1px solid #0E0E0E;
     }
