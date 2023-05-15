@@ -2,32 +2,44 @@
 import "../styles/style.css";
 ---
 
-<section  class="boks">
+<section class="boks">
 
-    <div>
+    <div class="img">
         <img src="/img/vision.webp" alt="img">
     </div>
     <div>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus error ad provident excepturi ex, unde ut similique esse corrupti vero sed nemo expedita veniam recusandae consequuntur laborum est quae vel.
-
         </p>
     </div>
 </section>
 
 
  <style>
-   
-   .boks{
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-   }
+
+    .boks{
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+    }
 
     p {
       text-decoration: none;
       color: black;
       font-family: "Cormorant", serif;
-     text-transform: uppercase;
+      text-align: center;
     }
-   
+   .img{
+display: flex;
+padding: 1rem;
+padding-left: 15rem;
+
+}
+
+.boks img{
+    max-width: 350px;
+
+}
+img{
+
+}
+
   </style>
